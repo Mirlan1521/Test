@@ -9,12 +9,14 @@ function MainPage (){
     function changeNews(e){
         e.preventDefault();
         setNews("new news")
+
     }
     return (
         <div>
             MainPge - {news}
             <div>
-                <button onClick={changeNews}>Change news</button>
+                <button onClick={changeNews}>Change News</button>
+                <div>tests </div>
             </div>
         </div>
 
